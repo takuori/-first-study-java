@@ -1,6 +1,7 @@
 package classMethod;
 
 import classMethod.human.Human02;
+//classMethod.human.Human02クラスを参照できるようにしている
 
 public class ClassMethod02 {
 	public static void main(String[] args) {
