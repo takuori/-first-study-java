@@ -16,6 +16,8 @@ public class Capsule01 {
 		
 		HumanCapsule human2 = new HumanCapsule("小林", 32);
 		//名前や年齢が変更禁止のカプセル化されたインスタンスを生成
+		human1.name = "今田";
+		human1.age = 70;
 		
 		System.out.println("名前は" + human2.getName() + "、年齢は" + human2.getAge() + "です");
 		//直接変更されないため、想定通りの名前と年齢が取得できる
