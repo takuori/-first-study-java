@@ -66,4 +66,10 @@ public class java4Person {
 	public void setJob(String job) {
 		this.job = job;
 	}
+	
+	public void buy(java5Vehicle vehicle) {
+		vehicle.setOwner(this);
+	}
+	
+
 }
