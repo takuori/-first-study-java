@@ -9,7 +9,7 @@ public class java5Main {
 		java4Person person1 = new java4Person("玉井", "詩織", 27, 1.591, 48.1, "医者");
 		java4Person person2 = new java4Person("百田", "えくぼ", "夏菜子", 28, 1.581, 48.3, "教師");
 
-		java5Bicycle bicycle = new java5Bicycle("ビアンキ", "緑");
+		java5Bicycle bicycle = new java5Bicycle("しおりん", "黄色");
 
 		System.out.println("【自転車の情報】");
 
@@ -18,6 +18,9 @@ public class java5Main {
 
 		System.out.println("----------------");
 		System.out.println("【自転車の所有者の情報】");
+		
+		//getOwner()はPersonクラスのインスタンス
+		//続けてPersonクラスのメソッドであるPrintDataメソッドを呼び出すことができる
 		bicycle.getOwner().printData();
 		
 		System.out.println("----------------");
@@ -36,6 +39,8 @@ public class java5Main {
 
 		System.out.println("----------------");
 		System.out.println("【車の所有者の情報】");
+		
+		//bicycleと同様
 		car.getOwner().printData();
 
 		System.out.println("----------------");

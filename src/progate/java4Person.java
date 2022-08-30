@@ -3,7 +3,7 @@ package progate;
 public class java4Person {
 	public static int count = 0;
 	public static void pointCount() {
-		System.out.println("合計" + java4Person.count + "人です");
+		System.out.println("合計" + java4Person.count + "人です！");
 	}
 	
 	private String firstName;
@@ -68,6 +68,11 @@ public class java4Person {
 	}
 	
 	public void buy(java5Vehicle vehicle) {
+		
+		//thisはbuyメソッドを呼び出しているPersonクラスのインスタンスを指す
+		//クラスごとに同じようなコードを書くので一つにまとめる
+		//Carクラス、Bicycleクラスのインスタンス共に、Vehicle型でもある
+		//サブクラスのインスタンスをスーパークラスのクラス型変数に代入可能なこと（多態姓）
 		vehicle.setOwner(this);
 	}
 	
